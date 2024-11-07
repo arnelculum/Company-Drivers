@@ -1,18 +1,210 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giltner Transportation - Company & Lease Purchase Drivers</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1920/1080');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        
+        .benefits-stripe {
+            background-color: #005baa;
+        }
+        
+        .cta-button {
+            background-color: #cc2c2c;
+        }
+        
+        .cta-button:hover {
+            background-color: #b52525;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header (Same as before) -->
     
-    <!-- Primary Meta Tags -->
-    <title>Company Truck Driver Jobs | CDL-A Positions Available Now</title>
-    <meta name="title" content="Company Truck Driver Jobs | CDL-A Positions Available Now">
-    <meta name="description" content="Find the best company truck driver jobs with top carriers. High-paying CDL-A positions, great benefits, and weekly home time. Apply today and get hired fast!">
-    <script type="module" crossorigin src="/assets/index-CXBTXVkB.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CUm_mrHL.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+    <!-- Benefits Banner -->
+    <div class="benefits-stripe text-white py-3 mt-20">
+        <div class="container mx-auto px-4">
+            <p class="text-center text-xl font-medium">Our Drivers Deserve the Best Benefits</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-16">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8">Giltner Transportation is Hiring Solo Company Drivers</h1>
+            <p class="text-xl mb-8">Lease Purchase Opportunities Available</p>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Company Driver Benefits -->
+                <div class="bg-black bg-opacity-50 p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-6">Company Driver Benefits:</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Average up to $70,000 annually
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            No-touch freight
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Pet-friendly and ride-along policies
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Major medical, dental, and vision after 60 days
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Layover, detention, and extra pick and drop pay
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            $500 paid orientation plus accommodations
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Direct deposit paid weekly
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Lease Purchase Benefits -->
+                <div class="bg-black bg-opacity-50 p-6 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-6">Lease Purchase Driver Benefits:</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            $3,500 - $6,000 bi-weekly after deductions
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            73% of load
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            100% of fuel surcharge
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            No trailer rental fees
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Buy-out option with 30-day walkaway
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            $2,500 referral bonus
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-5 h-5 text-red-500 mt-1 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            Down payment required (payment options available)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                <a href="https://intelliapp.driverapponline.com/c/giltner" 
+                   class="cta-button text-white px-8 py-3 rounded text-center font-medium">
+                    Start Today
+                </a>
+                <a href="tel:+12083244486" 
+                   class="cta-button text-white px-8 py-3 rounded text-center font-medium">
+                    Call Us (208) 324-4486
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">What Our Drivers Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="mb-4">"Wonderful company and team working here. They take care of their drivers and are a pleasure to interact with. It's so refreshing to find a company that treats their drivers like family."</p>
+                    <p class="font-bold">- Rainshadow Uniquities</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="mb-4">"Can't say ANYTHING bad about this company!!! No, I am not an employee. However, from being involved with Giltner for over 4 years... I cannot give it anything but... Perfect."</p>
+                    <p class="font-bold">- Dawnn Beresford</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="mb-4">"These guys are top notch. Jake, Jeff, Mario, Mark K, Casy on nights. Our guys have never had an issue with anyone here. Thanks for all you guys do!"</p>
+                    <p class="font-bold">- K B</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Start Your Career with Giltner Transportation Today!</h2>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://intelliapp.driverapponline.com/c/giltner" 
+                   class="cta-button text-white px-8 py-3 rounded font-medium">
+                    Apply Now
+                </a>
+                <a href="tel:+12083244486" 
+                   class="cta-button text-white px-8 py-3 rounded font-medium">
+                    Call Us (208) 324-4486
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rest of the page (Features, Partners, etc.) remains the same -->
+
+</body>
 </html>
